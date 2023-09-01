@@ -3,9 +3,10 @@ import {
   Navbar,
   MobileNav,
   Typography,
-  Button,
   IconButton,
 } from "@material-tailwind/react";
+
+import { Link } from "react-router-dom";
 
 const NavbarDefault = () => {
   const [openNav, setOpenNav] = React.useState(false);
@@ -25,9 +26,9 @@ const NavbarDefault = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <Link to="/" className="flex items-center">
           Home
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -35,9 +36,9 @@ const NavbarDefault = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <Link to="/about" className="flex items-center">
           About
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -45,9 +46,9 @@ const NavbarDefault = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <Link to="/contact" className="flex items-center">
           Contact
-        </a>
+        </Link>
       </Typography>
     </ul>
   );
