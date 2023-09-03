@@ -6,6 +6,8 @@ import {
   IconButton,
 } from "@material-tailwind/react";
 
+import Socials from "./Socials";
+
 import { Link } from "react-router-dom";
 
 const NavbarDefault = () => {
@@ -50,6 +52,7 @@ const NavbarDefault = () => {
           Contact
         </Link>
       </Typography>
+      <Socials />
     </ul>
   );
 
