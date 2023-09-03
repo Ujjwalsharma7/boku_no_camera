@@ -1,8 +1,11 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 
 const Home = () => {
-  return <div>Home page</div>;
+  return (
+    <section className="section bg-blue-200 h-screen overflow-hidden">
+      Home page
+    </section>
+  );
 };
 
 export default Home;

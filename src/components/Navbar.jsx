@@ -24,7 +24,7 @@ const NavbarDefault = () => {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal text-[#696c6d] hover:text-[#121212] transition"
       >
         <Link to="/" className="flex items-center">
           Home
@@ -34,7 +34,7 @@ const NavbarDefault = () => {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal text-[#696c6d] hover:text-[#121212] transition"
       >
         <Link to="/about" className="flex items-center">
           About
@@ -44,7 +44,7 @@ const NavbarDefault = () => {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal text-[#696c6d] hover:text-[#121212] transition"
       >
         <Link to="/contact" className="flex items-center">
           Contact
@@ -54,11 +54,11 @@ const NavbarDefault = () => {
   );
 
   return (
-    <Navbar className="mx-auto max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4">
+    <Navbar className="mx-auto max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4 bg-pink-200">
       <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
-          href="#"
+          href="/"
           className="mr-4 cursor-pointer py-1.5 font-medium"
         >
           Boku-no-Camera
