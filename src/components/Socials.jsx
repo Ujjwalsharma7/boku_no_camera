@@ -8,7 +8,7 @@ import {
 
 const Socials = () => {
   return (
-    <div className="hidden xl:flex ml-24">
+    <div className="hidden md:flex ml-24">
       <ul className="flex gap-x-8">
         <li>
           <a href="" target="_blank">
