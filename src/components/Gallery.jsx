@@ -38,10 +38,10 @@ const Gallery = () => {
 
     ]
     return (
-        <div className=' columns-3 px-12 '>
+        <div className=' lg:columns-3 md:columns-2 columns-1 px-12 py-5s'>
             {data.map((item, index) => {
                 return (
-                    <div className=' mb-2' key={index}>
+                    <div className=' mb-2 transition-all duration-350 ease-in cursor-pointer' key={index}>
                         <img src={item.img} className=' w-full ' />
                     </div>
                 )
