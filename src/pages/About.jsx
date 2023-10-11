@@ -20,7 +20,7 @@ const About = () => {
             <br />
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis veritatis hic illo ipsa itaque saepe fuga eum dolor quibusdam ipsum.
           </p>
-          <Link className="btn">
+          <Link className="btn" to='/work'>
             See my work
           </Link>
 
