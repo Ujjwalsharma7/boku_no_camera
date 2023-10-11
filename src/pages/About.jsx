@@ -15,10 +15,15 @@ const About = () => {
         {/* text  */}
         <div className="flex-1 pt-36 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start">
           <h1 className="h1">About me</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, eveniet et soluta, sit, possimus vel pariatur omnis fugiat vero natus unde rerum mollitia porro molestiae.</p>
-          <br />
-          <br />
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis veritatis hic illo ipsa itaque saepe fuga eum dolor quibusdam ipsum.</p>
+          <p className="mb-12 max-w-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, eveniet et soluta, sit, possimus vel pariatur omnis fugiat vero natus unde rerum mollitia porro molestiae.
+            <br />
+            <br />
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis veritatis hic illo ipsa itaque saepe fuga eum dolor quibusdam ipsum.
+          </p>
+          <Link className="btn">
+            See my work
+          </Link>
+
         </div>
       </div>
 
