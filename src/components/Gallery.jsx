@@ -60,7 +60,7 @@ const Gallery = () => {
           className="w-auto max-w-full h-auto block leading-3 box-border pt-20 pr-0 pb-20 pl-0 max-h-full my-0 mx-auto"
         />
         <AiOutlineClose
-          className=" fixed top-10 right-10 w-24 h-24 p-5 text-white"
+          className=" fixed top-10 right-10 w-24 h-24 p-5 text-white cursor-pointer"
           onClick={() => setModel(false)}
         />
       </div>

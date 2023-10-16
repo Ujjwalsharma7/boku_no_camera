@@ -12,16 +12,16 @@ const Socials = () => {
       <ul className="flex gap-x-8">
         <li>
           <a href="" target="_blank">
-            <AiFillInstagram size="1.5rem" />
+            <AiFillInstagram size="1.5rem" className=" text-black" />
           </a>
         </li>
         <li>
           <a href="" target="_blank">
-            <AiFillLinkedin size="1.5rem" />
+            <AiFillLinkedin size="1.5rem " className=" text-black" />
           </a>
         </li>
         <li>
-          <a href="" target="_blank" className="h-10 w-10">
+          <a href="" target="_blank" className="h-10 w-10 text-black">
             <AiFillTwitterCircle size="1.5rem" />
           </a>
         </li>

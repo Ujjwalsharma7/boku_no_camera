@@ -26,7 +26,7 @@ const NavbarDefault = () => {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-medium text-[#696c6d] hover:text-[#121212] transition"
+        className="p-1 font-medium text-[#696c6d] hover:text-[#121212] transition text-xl"
       >
         <Link to="/" className="flex items-center">
           Home
@@ -36,7 +36,7 @@ const NavbarDefault = () => {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-medium text-[#696c6d] hover:text-[#121212] transition"
+        className="p-1 font-medium text-[#696c6d] hover:text-[#121212] transition text-xl"
       >
         <Link to="/about" className="flex items-center">
           About
@@ -46,7 +46,7 @@ const NavbarDefault = () => {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-medium text-[#696c6d] hover:text-[#121212] transition"
+        className="p-1 font-medium text-[#696c6d] hover:text-[#121212] transition text-xl"
       >
         <Link to="/work" className="flex items-center">
           Work
@@ -56,7 +56,7 @@ const NavbarDefault = () => {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-medium text-[#696c6d] hover:text-[#121212] transition"
+        className="p-1 font-medium text-[#696c6d] hover:text-[#121212] transition text-xl"
       >
         <Link to="/contact" className="flex items-center">
           Contact
@@ -73,7 +73,7 @@ const NavbarDefault = () => {
           <Typography
             as="a"
             href="/"
-            className="mr-4 cursor-pointer py-1.5 font-medium"
+            className="mr-4 cursor-pointer py-1.5 font-semibold text-xl text-gray-900"
           >
             Boku-no-Camera
           </Typography>
